@@ -1,8 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace ex55
 {
@@ -13,7 +11,7 @@ namespace ex55
             LeaderBoard leaderBoard = new LeaderBoard();
 
             leaderBoard.ShowTopPlayers();
-            leaderBoard.ShowPlayers();
+            leaderBoard.ShowAllPlayers();
         }
     }
 
@@ -30,7 +28,7 @@ namespace ex55
             OrderByLevel();
         }
 
-        public void ShowPlayers()
+        public void ShowAllPlayers()
         {
             Console.WriteLine("\n\nПолный список игроков: ");
 
